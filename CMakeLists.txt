@@ -6,9 +6,6 @@ if (NOT PICO_PROGRAM_MAIN_ENTRY)
 	# Turn this setting to ON if your rp2040 is not detected after firmware upload and reset
 	set(BOOT_WORKAROUND OFF)
 
-	# Default output data pin for the non-SPI LED strips (only for sk6812/ws2812b)
-	set(OUTPUT_DATA_PIN 2)
-
 	# Default output data/clocks pin for the SPI LED strips (only for apa102, not for sk6812/ws2812b)
 	# only certain pairs of pins are allowed for selected SPI interface (refer to "readme.md")
 	set(OUTPUT_SPI_DATA_PIN 3)
